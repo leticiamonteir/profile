@@ -9,9 +9,10 @@ body {
   
   
   .menu {
-    background-color: #cc6b8e;
+    background-color: #f3b3e5;
     border-radius: 8px;
     box-shadow: 0 0 32px;
+    opacity: 0,5;
   }
   
 
@@ -33,7 +34,8 @@ body {
   }
   
   a:hover {
-    text-decoration: underline;
+    font-weight: 700;
+    color: #f380bf;
   }
   
   .site-subtitle2,
@@ -62,11 +64,11 @@ body {
   }
 
   .text {
-    background: #cc6b8e;
+    background-color: #f59dd0;
     padding: 25px;
     margin: 50px;
     margin-top: 250px;
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: 0 0 32px;
     font-size: px;
     align-items: center;
@@ -81,6 +83,3 @@ body {
     left: 0;
     margin: auto;
     }
-  
-
-
