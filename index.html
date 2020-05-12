@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Leticia Monteiro</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
@@ -28,9 +28,43 @@
               -webkit-transform: rotateZ(360deg);
               transform: rotateZ(360deg);
           }
+
+
+            h4::after {
+              content: '|';
+              margin-left: 5px;
+              opacity: 1;
+              animation: pisca .7s infinite;
+            }
+          
+            @keyframes pisca {
+              0%, 100% {
+                opacity: 1;
+              }
+              50% {
+                opacity: 0;
+              }
+            }
           </style>
           
-         <h4 class="text">Hello, my name is Leticia Monteiro, I am 14 years old, I started to be interested in programming a few years ago, I find the countless things that we can create interesting, so now I am studying HTML and CSS, but I still want to go much deeper in programming.  </h4>
-       </header>
+         <h4 class="text">Hello, my name is Leticia Monteiro, I am 14 years old, I started to be interested in programming a few years ago, I find the countless things that we can create interesting, so now I am studying HTML and CSS, but I still want to go much deeper in programming. :3 </h4>
+        </header>
+       <script>
+
+         function typeWriter(elemento) {
+           const textoArray = elemento.innerHTML.split("");
+           elemento.innerHTML = "";
+           textoArray.forEach(function(letra, i) {
+          setTimeout(function() {
+           elemento.innerHTML += letra;
+          }, 35 * i)
+
+           });
+         }
+         
+         const texto = document.querySelector('h4');
+         typeWriter(texto);
+
+       </script>
 </body>
 </html>
