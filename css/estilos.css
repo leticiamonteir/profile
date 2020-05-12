@@ -1,0 +1,86 @@
+body {
+    background-image: url("https://images.hdqwalls.com/download/8-bit-pixel-art-city-2o-2880x1800.jpg");
+    background-size: auto 110vh;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+  }
+  
+  
+  
+  
+  .menu {
+    background-color: #cc6b8e;
+    border-radius: 8px;
+    box-shadow: 0 0 32px;
+  }
+  
+
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color:  #05141b;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-subtitle2,
+  .site-subtitle,
+  .site-title {
+    text-align: center;
+    color: #05141b;
+    
+   
+  }
+  .site-title {
+    font-size: 50px;
+    align-items: center;
+    margin-top: 50px;
+  }
+     
+  .site-subtitle {
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  
+  .site-subtitle2 {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  .text {
+    background: #cc6b8e;
+    padding: 25px;
+    margin: 50px;
+    margin-top: 250px;
+    border-radius: 8px;
+    box-shadow: 0 0 32px;
+    font-size: px;
+    align-items: center;
+    color: #05141b;
+  }
+
+  .icon {
+    position: absolute;
+    top: ;
+    right: 0;
+    bottom:;
+    left: 0;
+    margin: auto;
+    }
+  
+
+
