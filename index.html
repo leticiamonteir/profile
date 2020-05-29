@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leticia Monteiro</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -14,11 +16,17 @@
             <li><a href="https://twitter.com/lehmzinea">Twitter</a></li>
            </ul>
         </nav>
-        <h1 class="site-title">Leticia Monteiro</h1>
-        <h2 class="site-subtitle">-Beginner web developer-</h2>
-        <h3 class="site-subtitle2">welcome to the first test of my website</h3>
-        <img class="icon" src="https://www.pngkit.com/png/full/131-1312766_orihime-sky-flower-icon-circle-anime-girl-icon.png" alt="imagem não carregada" width=200 height=200 >
-        <style>
+        <div>
+          <h1 class="site-title">Leticia Monteiro</h1>
+          <h2 class="site-subtitle">{Beginner web developer}</h2>
+          <h3 class="site-subtitle2">welcome to the first test of my website</h3>
+    </div>
+    <div>
+      <h4 class="text">Hello, my name is Leticia Monteiro, I am 14 years old, I started to be interested in programming a few years ago, I find the countless things that we can create interesting, so now I am studying HTML and CSS, but I still want to go much deeper in programming. :3 </h4>
+      <img src="file:///C:/Users/Monteiro/Downloads/transferir%20(23).png" alt="some text" width=60 height=40>
+    </div>
+      </header>
+      <style>
           .icon{
               transition: all 1s;
               cursor: pointer;
@@ -30,7 +38,7 @@
           }
 
 
-            h4::after {
+            h2::after {
               content: '|';
               margin-left: 5px;
               opacity: 1;
@@ -47,7 +55,6 @@
             }
           </style>
           
-         <h4 class="text">Hello, my name is Leticia Monteiro, I am 14 years old, I started to be interested in programming a few years ago, I find the countless things that we can create interesting, so now I am studying HTML and CSS, but I still want to go much deeper in programming. :3 </h4>
         </header>
        <script>
 
@@ -57,14 +64,51 @@
            textoArray.forEach(function(letra, i) {
           setTimeout(function() {
            elemento.innerHTML += letra;
-          }, 35 * i)
+          }, 20 * i)
 
            });
          }
          
-         const texto = document.querySelector('h4');
+         const texto = document.querySelector('h2');
          typeWriter(texto);
 
        </script>
+       <section>
+        <h2 class="portfolio">Portfolio</h2>
+        <div class="grid-portfolio">
+          <figure>
+            <img class="img-portfolio" src="file:///C:/Users/Monteiro/Downloads/undraw_proud_coder_7ain%20(1).svg" alt="eCommerce">
+            <figcaption>HTML / CSS learner</figcaption>
+        </figure>
+        <figure>
+            <img class="img-portfolio" src="file:///C:/Users/Monteiro/Downloads/undraw_live_photo_qhmw.svg" alt="Web design">
+            <figcaption>Web design</figcaption>
+        </figure>
+        <figure>
+          <img class="img-portfolio" src="file:///C:/Users/Monteiro/Downloads/undraw_online_video_ivvq.svg" alt=">Mobile">
+          <figcaption>Video edition</figcaption>
+      </figure>
+        <figure>
+            <img class="img-portfolio" src="file:///C:/Users/Monteiro/Downloads/undraw_certification_aif8.svg" alt="Projetos pessoais">
+            <figcaption>personal projects</figcaption>
+        </figure>
+        </div>
+      </section>
+      <h2 class="contato">Contatos</h2>
+      <div class="grid-icons">
+          <a target="_blank" href="">
+            Github
+          </a>
+          <a target="_blank" href="">
+            twitter
+          </a>
+          <a target="_blank" href="">
+            linkedin
+          </a>
+          <a href="">
+            email
+          </a>
+        </div>
+      </section>
 </body>
 </html>
